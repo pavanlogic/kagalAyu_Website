@@ -1,0 +1,272 @@
+/*=========================
+TOP BAR
+==========================*/
+
+.topbar{
+
+    background:#014421;
+
+    color:#fff;
+
+    height:40px;
+
+    font-size:14px;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.topbar .container-fluid{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.topbar-left{
+
+    display:flex;
+
+    gap:25px;
+
+}
+
+.topbar-left span{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+.topbar-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.topbar-right a{
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+.topbar-right a:hover{
+
+    color:#ffc107;
+
+}
+
+.topbar-right select{
+
+    background:transparent;
+
+    border:none;
+
+    color:white;
+
+}
+
+
+
+/*=========================
+HEADER
+==========================*/
+
+.college-header{
+
+    background:white;
+
+    padding:18px 20px;
+
+}
+
+.college-logo{
+
+     width:100px;
+    height:auto;
+
+}
+
+.college-title{
+
+    color:#015b32;
+
+    font-size:35px;
+
+    font-weight:700;
+
+    margin:0;
+
+    white-space:nowrap;
+
+}
+
+.college-marathi{
+
+    color:#015b32;
+
+    font-size:30px;
+
+    margin-top:8px;
+
+}
+.college-title,
+.college-marathi,
+.college-address{
+
+  /*   font-size:22px;
+
+    margin-top:10px; */
+    text-align:left;
+
+}
+.college-title{
+    margin-bottom:5px;
+}
+
+.college-marathi{
+    margin-bottom:5px;
+}
+
+.college-address{
+    margin-bottom:0;
+}
+
+.header-right{
+
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:25px;
+
+}
+
+.logo-box{
+
+    text-align:center;
+
+}
+
+.logo-box img{
+
+    height:80px;
+
+    width:auto;
+
+}
+
+/*=========================
+NAVBAR
+==========================*/
+
+.custom-navbar{
+
+    background:#014421;
+
+    padding:0;
+
+}
+
+.custom-navbar .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-navbar .nav-link{
+
+    color:white !important;
+
+    font-size:13px;
+
+    font-weight:600;
+
+    padding:14px 8px !important;
+
+    white-space: nowrap;
+    
+    text-transform: uppercase;
+
+}
+
+.custom-navbar .nav-link:hover{
+
+    color: #ffc107 !important;
+    
+    background: #026633;
+
+}
+
+.dropdown-menu{
+
+    border-radius:0;
+
+    border:none;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+.dropdown-toggle::after {
+    margin-left: 4px;
+    font-size: 10px;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    border: none;
+}
+
+.dropdown-item {
+    font-size: 13px;
+}
+.dropdown-item:hover{
+
+    background:#014421;
+
+    color:white;
+
+}
+
+.navbar-toggler{
+
+    border:none;
+
+}
+
+.navbar-toggler:focus{
+
+    box-shadow:none;
+
+}
+
+.college-header .row{
+    align-items:center;
+}
+
+.college-header .col-lg-7{
+    padding-left:5px;
+}
+
+.custom-navbar{
+    overflow:visible;
+}
+
+.navbar{
+    overflow:visible;
+}

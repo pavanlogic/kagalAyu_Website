@@ -1,0 +1,43 @@
+.quick-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:15px;
+
+}
+
+.quick-card{
+
+    background:#0b6b3a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+    border-radius:6px;
+
+}
+
+.quick-card:hover{
+
+    background:#014421;
+
+    transform:translateY(-5px);
+
+}
+
+.quick-icon{
+
+    font-size:40px;
+
+    margin-bottom:10px;
+
+}

@@ -1,0 +1,37 @@
+.vision-box{
+
+    background:rgba(0,0,0,.75);
+
+    color:white;
+
+    padding:5px;
+
+    height:380px;
+
+}
+
+.vision-box h3{
+
+    color:#FFD54F;
+
+    font-weight:bold;
+
+    margin-bottom:10px;
+
+}
+
+.vision-box p{
+
+    line-height:1.8;
+
+    font-size:17px;
+
+}
+
+.vision-box hr{
+
+    border-color:#777;
+
+    margin:35px 0;
+
+}
