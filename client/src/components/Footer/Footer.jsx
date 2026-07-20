@@ -51,12 +51,31 @@ function Footer() {
             <h5>Quick Links</h5>
 
             <ul>
-              <li>NCISM</li>
+              <li>              
+                 <a
+                      href="https://ncismindia.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                      NCISM
+                  </a>
+              </li>
               <li>CCIM</li>
-              <li>MUHS</li>
+              <li>                 
+                <a
+                      href="https://www.muhs.ac.in/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                      MUHS
+                  </a>
+              </li>
+              
               <li>AYUSH Ministry</li>
               <li>RTI</li>
               <li>Privacy Policy</li>
+
+
             </ul>
 
           </div>

@@ -1,0 +1,21 @@
+.page-banner{
+    height:220px;
+    background:url("/images/banner.jpg") center center/cover no-repeat;
+    position:relative;
+}
+
+.page-banner-overlay{
+    width:100%;
+    height:100%;
+    background:rgba(0,70,35,.55);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.page-banner-overlay h1{
+    color:#fff;
+    font-size:42px;
+    font-weight:700;
+}

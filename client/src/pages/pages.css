@@ -1,0 +1,25 @@
+.page-container{
+    width:90%;
+    max-width:1200px;
+    margin:30px auto;
+    background:#fff;
+    border-radius:6px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.page-header{
+    background:#0b5d2a;
+    color:#fff;
+    padding:18px 25px;
+}
+
+.page-header h2{
+    margin:0;
+}
+
+.page-content{
+    padding:25px;
+    line-height:1.8;
+    font-size:16px;
+    text-align:justify;
+}

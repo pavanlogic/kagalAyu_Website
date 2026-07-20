@@ -132,4 +132,9 @@ function App() {
   return <AppRoutes />;
 }
 
+{/* <Route
+    path="/history"
+    element={<History />}
+/> */}
+
 export default App;

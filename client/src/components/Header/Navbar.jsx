@@ -3,6 +3,7 @@ import { FaHome } from "react-icons/fa";
 // import "./Header.css";
 import "./Navbar.css";
 
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg custom-navbar sticky-top">
@@ -44,15 +45,20 @@ function Navbar() {
               </a>
 
               <ul className="dropdown-menu">
+ 
+                <li><Link className="dropdown-item" to="/history">History & Introduction</Link></li>
 
-                <li><Link className="dropdown-item" to="/about">History</Link></li>
+                <li><Link className="dropdown-item" to="/vision-mission">Vision & Mission</Link></li>
 
-                <li><Link className="dropdown-item" to="#">Governing Body</Link></li>
+                <li><Link className="dropdown-item" to="governing-body">Governing Body</Link></li>
 
-                <li><Link className="dropdown-item" to="#">Organizational Chart</Link></li>
+                <li><Link className="dropdown-item" to="org-chart">Organizational Chart</Link></li>
 
-                <li><Link className="dropdown-item" to="#">Affiliation & Recognition</Link></li>
+                <li><Link className="dropdown-item" to="affiliation">Affiliation & Recognition</Link></li> 
 
+                <li><Link className="dropdown-item" to="annual-reports">Annual Reports</Link></li> 
+
+                <li><Link className="dropdown-item" to="rti">RTI</Link></li> 
               </ul>
 
             </li>
@@ -78,7 +84,17 @@ function Navbar() {
                 <li><Link className="dropdown-item" to="/about">Intake Capacity</Link></li>
                 <li><Link className="dropdown-item" to="/about">Student Admission List</Link></li>
                 <li><Link className="dropdown-item" to="/about">Infrastructure Details</Link></li>
-                <li><Link className="dropdown-item" to="/about">Hospital Statistics</Link></li>
+                {/* <li><Link className="dropdown-item" to="/about">Hospital Statistics</Link></li> */}
+                              <li>
+                  <a
+                      className="dropdown-item"
+                      href="/pdf/Hospital_Statistic.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                      Hospital Statistics
+                  </a>
+              </li>
                 <li><Link className="dropdown-item" to="/about">Research Publications</Link></li>
 
               </ul>
@@ -99,7 +115,7 @@ function Navbar() {
 
               <ul className="dropdown-menu">
 
-                <li><Link className="dropdown-item" to="#">Principal</Link></li>
+                <li><Link className="dropdown-item" to="deans-message">Dean's Message</Link></li>
 
                 <li><Link className="dropdown-item" to="#">Medical Superintendent</Link></li>
 
@@ -133,7 +149,7 @@ function Navbar() {
 
                     <Link to="/curriculum">Curriculum & Syllabus</Link>
 
-                    <Link to="/committees">Committees & Cells</Link>
+                    {/* <Link to="/committees">Committees & Cells</Link> */}
 
                   </div>
 
@@ -161,9 +177,9 @@ function Navbar() {
                       Committees & Cells
                     </div>
 
-                    <Link to="/guest-lectures">Anti-Ragging Cell</Link>
+                    <Link to="/Anti-Ragging-Cell">Anti-Ragging Cell</Link>
 
-                    <Link to="/Student-Grievance-Redressal-Cell">Student Grievance Redressal Cell</Link>
+                    <Link to="/College-Council-Committee">College Council Committee</Link>
 
                     <Link to="/ICC">Internal Complaints Committee (ICC)</Link>
 
@@ -176,6 +192,11 @@ function Navbar() {
                     <Link to="/HRDC-Anti-Ragging">HRDC Anti-Ragging Cell</Link>
 
                     <Link to="/Grievance-Redressal">Grievance Redressal</Link>
+
+                    <Link to="/Research-innovation-entrepreneurship-cell">Research innovation & entrepreneurship development cell</Link>
+
+                    <Link to="/Committee-Against-Sexual-Harassment">Committee Against Sexual Harassment</Link>
+                    	
 
                   </div>
 
@@ -266,9 +287,19 @@ function Navbar() {
 
               <ul className="dropdown-menu">
 
-                <li><Link className="dropdown-item" to="/hospital">Teaching Staff</Link></li>
+                {/* <li><Link className="dropdown-item" to="/hospital">Teaching Staff</Link></li> */}
+              <li>
+                  <a
+                      className="dropdown-item"
+                      href="/pdf/Teaching_Staff.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                      Teaching Staff
+                  </a>
+              </li>
 
-                <li><Link className="dropdown-item" to="#">Non-Teaching Staff</Link></li>
+                <li><Link className="dropdown-item" to="faculty/non-teaching-staff">Non-Teaching Staff</Link></li>
 
                 <li><Link className="dropdown-item" to="#">Faculty Achievements</Link></li>
 
@@ -358,11 +389,29 @@ function Navbar() {
 
             </li>
 
-{/*             <li className="nav-item">
-              <Link className="nav-link" to="/news">
-                DOWNLOADS
-              </Link>
-            </li>  */}
+        {/* IQAC */}
+
+            <li className="nav-item dropdown">
+
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                IQAC
+              </a>
+
+              <ul className="dropdown-menu">
+
+                <li><Link className="dropdown-item" to="/academics/committee-cells/iqac-committee">IQAC Committee</Link></li>
+
+                <li><Link className="dropdown-item" to="#">Goals,Objectives & Code Of Conduct</Link></li>
+
+              </ul>
+
+            </li>
+
+
             <li className="nav-item">
               <Link className="nav-link" to="/notices">
                 Notices
@@ -373,6 +422,9 @@ function Navbar() {
                 CONTACT US
               </Link>
             </li>
+
+
+            
 
           </ul>
 

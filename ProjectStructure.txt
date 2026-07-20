@@ -1,0 +1,84 @@
+src/
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   ├── videos/
+│   └── css/
+│
+├── components/
+│   ├── Common/
+│   ├── Header/
+│   ├── Footer/
+│   ├── Hero/
+│   ├── HomeSection/
+│   ├── Statistics/
+│   ├── InformationGrid/
+│   └── ...
+│
+├── layouts/
+│   └── MainLayout.jsx
+│
+├── pages/
+│
+│   ├── Home.jsx
+│   ├── Contact.jsx
+│   ├── Gallery.jsx
+│   ├── Notices.jsx
+│
+│   ├── About/
+│   │   ├── History.jsx
+│   │   ├── VisionMission.jsx
+│   │   ├── Affiliation.jsx
+│   │   ├── GoverningBody.jsx
+│   │   ├── AnnualReports.jsx
+│   │   └── About.css
+│   │
+│   ├── Administration/
+│   │   ├── DeansMessage.jsx
+│   │   ├── Organogram.jsx
+│   │   ├── AdministrativeStaff.jsx
+│   │   ├── CollegeCouncil.jsx
+│   │   ├── AntiRaggingCommittee.jsx
+│   │   ├── IQAC.jsx
+│   │   ├── RTI.jsx
+│   │   └── Administration.css
+│   │
+│   ├── Academics/
+│   │   ├── UGCourse.jsx
+│   │   ├── PGCourse.jsx
+│   │   ├── AcademicCalendar.jsx
+│   │   ├── Curriculum.jsx
+│   │   ├── Committees.jsx
+│   │   ├── GuestLectures.jsx
+│   │   ├── CME.jsx
+│   │   ├── Workshops.jsx
+│   │   ├── Seminars.jsx
+│   │   └── Academics.css
+│   │
+│   ├── Departments/
+│   │   ├── Kayachikitsa.jsx
+│   │   ├── Panchakarma.jsx
+│   │   ├── Shalya.jsx
+│   │   ├── Shalakya.jsx
+│   │   ├── PrasutiTantra.jsx
+│   │   └── ...
+│   │
+│   ├── Hospital/
+│   │   ├── OPD.jsx
+│   │   ├── IPD.jsx
+│   │   ├── Panchakarma.jsx
+│   │   ├── Laboratory.jsx
+│   │   ├── Pharmacy.jsx
+│   │   └── Hospital.css
+│   │
+│   ├── Research/
+│   ├── Students/
+│   ├── Facilities/
+│   ├── Admissions/
+│   └── Downloads/
+│
+├── routes/
+│   └── AppRoutes.jsx
+│
+└── services/

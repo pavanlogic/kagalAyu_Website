@@ -1,0 +1,27 @@
+.breadcrumb-area{
+
+    padding:15px 0;
+
+    font-size:15px;
+}
+
+.breadcrumb-area a{
+
+    color:#0b5d2a;
+
+    text-decoration:none;
+}
+
+.separator{
+
+    margin:0 8px;
+
+    color:#777;
+}
+
+.active{
+
+    font-weight:600;
+
+    color:#222;
+}
