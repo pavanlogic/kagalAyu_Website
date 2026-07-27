@@ -12,7 +12,10 @@ function PageLayout({ title, breadcrumb, children }) {
 
       <div className="page-wrapper">
 
-        <Breadcrumb items={breadcrumb} />
+        {/* <Breadcrumb items={breadcrumb} /> */}
+        {breadcrumb && breadcrumb.length > 0 && (
+    <Breadcrumb items={breadcrumb} />
+)}
 
         <div className="page-card">
 

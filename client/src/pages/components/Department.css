@@ -1,0 +1,316 @@
+/* ======================================================
+   Department Template CSS
+   KLE Ayurveda College Website
+====================================================== */
+
+.department-section {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+.department-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.department-header h1 {
+    color: #8b0000;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.department-line {
+    width: 100px;
+    height: 4px;
+    background: #c89b3c;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.department-line-small {
+    width: 70px;
+    height: 3px;
+    background: #c89b3c;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* ===========================
+   Common Card
+=========================== */
+
+.department-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 35px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.department-card:hover {
+    transform: translateY(-4px);
+}
+
+.department-card h2 {
+    color: #8b0000;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.department-card p {
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+/* ===========================
+   Sanskrit Quote
+=========================== */
+
+.quote-card {
+    background: linear-gradient(135deg,#8b0000,#b22222);
+    color: #fff;
+    border-radius: 12px;
+    padding: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+}
+
+.sanskrit-quote {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.sanskrit-subquote {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* ===========================
+   Objectives
+=========================== */
+
+.objective-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.objective-list li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 18px;
+    color: #444;
+    line-height: 1.8;
+}
+
+.objective-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ===========================
+   Faculty Table
+=========================== */
+
+.faculty-table {
+    margin-top: 15px;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.faculty-table thead {
+    background: #8b0000;
+    color: #fff;
+}
+
+.faculty-table thead th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px;
+}
+
+.faculty-table tbody td {
+    vertical-align: middle;
+    padding: 12px;
+}
+
+.faculty-table tbody tr:hover {
+    background: #fff8ef;
+}
+
+/* ===========================
+   Gallery
+=========================== */
+
+.gallery-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.10);
+    transition: .35s;
+}
+
+.gallery-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,.18);
+}
+
+.gallery-image {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    transition: .4s;
+}
+
+.gallery-card:hover .gallery-image {
+    transform: scale(1.08);
+}
+
+/* ===========================
+   Bootstrap Table Override
+=========================== */
+
+.table-bordered {
+    border-color: #ddd;
+}
+
+.table-hover tbody tr:hover {
+    background: #fff9ef;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width:992px){
+
+.department-header h1{
+    font-size:1.8rem;
+}
+
+.sanskrit-quote{
+    font-size:1.45rem;
+}
+
+.gallery-image{
+    height:220px;
+}
+
+}
+
+@media (max-width:768px){
+
+.department-section{
+    padding:40px 0;
+}
+
+.department-card{
+    padding:20px;
+}
+
+.department-header h1{
+    font-size:1.6rem;
+}
+
+.department-card h2{
+    font-size:1.3rem;
+}
+
+.department-card p{
+    font-size:.96rem;
+}
+
+.sanskrit-quote{
+    font-size:1.25rem;
+}
+
+.sanskrit-subquote{
+    font-size:1rem;
+}
+
+.gallery-image{
+    height:210px;
+}
+
+.faculty-table{
+    font-size:.90rem;
+}
+
+}
+
+@media (max-width:576px){
+
+.department-header h1{
+    font-size:1.35rem;
+}
+
+.department-card{
+    padding:18px;
+}
+
+.quote-card{
+    padding:20px;
+}
+
+.sanskrit-quote{
+    font-size:1.1rem;
+}
+
+.sanskrit-subquote{
+    font-size:.95rem;
+}
+
+.gallery-image{
+    height:190px;
+}
+
+.objective-list li{
+    padding-left:28px;
+}
+
+.faculty-table{
+    font-size:.82rem;
+}
+
+}
+
+/* ===========================
+   Animation
+=========================== */
+
+.department-card,
+.gallery-card,
+.quote-card{
+    animation: fadeUp .7s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+    opacity:0;
+    transform:translateY(20px);
+}
+
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
+}

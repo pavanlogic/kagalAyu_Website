@@ -1,0 +1,1 @@
+import DepartmentTemplate from "./components/DepartmentTemplate";

@@ -132,11 +132,21 @@ function Footer() {
 
                 <h5>Location</h5>
 
-                <iframe
+{/*                 <iframe
                     title="College Map"
-                    src="https://www.google.com/maps?q=Government+Ayurvedic+College+Kagal&output=embed"
+                    src="https://maps.app.goo.gl/SFif3fVxqPyfQBma6?g_st=awb"
                     loading="lazy"
-                ></iframe>
+                ></iframe> */}
+
+                <div className="map-container">
+                  <iframe
+                    title="College Location"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1603.2724290926058!2d74.3284455!3d16.578817100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0fbee6f7a7a2f%3A0xa3bed061cb26c3e7!2sAgricultuire%20Colleges%20Farm!5e1!3m2!1sen!2sin!4v1784986359474!5m2!1sen!2sin"
+                    loading="lazy"
+                    allowFullScreen
+                    referrerPolicy="strict-origin-when-cross-origin"
+                  />
+                </div>
 
             </div>
 

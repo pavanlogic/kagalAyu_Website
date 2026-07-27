@@ -248,26 +248,33 @@ function Navbar() {
 
               <ul className="dropdown-menu">
 
-                <li><Link className="dropdown-item" to="#">Samhita Siddhanta</Link></li>
+               <li><Link className="dropdown-item" to="/departments/samhita-siddhant">Samhita Siddhanta</Link></li> 
 
-                <li><Link className="dropdown-item" to="#">Rachana Sharir</Link></li>
+                <li><Link className="dropdown-item" to="/departments/rachana-sharir">Rachana Sharir</Link></li>
 
-                <li><Link className="dropdown-item" to="#">Kriya Sharir</Link></li>
+                <li><Link className="dropdown-item" to="/departments/kriya-sharir">Kriya Sharir</Link></li>
 
                 <li><Link className="dropdown-item" to="#">Dravyaguna</Link></li>
 
                 <li><Link className="dropdown-item" to="#">Rognidan</Link></li>
 
                 <li><Link className="dropdown-item" to="#">Rasashastra&Bhaishajya Kalpana</Link></li>
+                
+                <li><Link className="dropdown-item" to="/departments/agadtantra">Agadtantra</Link></li>
 
-                <li><Link className="dropdown-item" to="#">Agadtantra</Link></li>
-                <li><Link className="dropdown-item" to="#">Swasthavritta</Link></li>
-                <li><Link className="dropdown-item" to="#">Prasuti Tantra &Striroga</Link></li>
-                <li><Link className="dropdown-item" to="#">Kaumarbhritya</Link></li>
-                <li><Link className="dropdown-item" to="#">Kayachikitsa</Link></li>
-                <li><Link className="dropdown-item" to="#">Shalya Tantra</Link></li>
-                <li><Link className="dropdown-item" to="#">Shalakya Tantra</Link></li>
-                <li><Link className="dropdown-item" to="#">Panchakarma</Link></li>
+                <li><Link className="dropdown-item" to="/departments/swasthavritta">Swasthavritta</Link></li>
+
+                <li><Link className="dropdown-item" to="/departments/prasuti-tantra">Prasuti Tantra &Striroga</Link></li>
+
+                <li><Link className="dropdown-item" to="/departments/kaumarbhritya">Kaumarbhritya</Link></li>
+
+                <li><Link className="dropdown-item" to="/departments/kayachikitsa">Kayachikitsa</Link></li>
+
+                <li><Link className="dropdown-item" to="/departments/shalya-tantra">Shalya Tantra</Link></li>
+
+                <li><Link className="dropdown-item" to="/departments/shalakya-tantra">Shalakya Tantra</Link></li>
+
+                <li><Link className="dropdown-item" to="/departments/panchakarma">Panchakarma</Link></li>
 
               </ul>
 
@@ -381,7 +388,7 @@ function Navbar() {
 
               <ul className="dropdown-menu">
 
-                <li><Link className="dropdown-item" to="#">Photo Gallery</Link></li>
+                <li><Link className="dropdown-item" to="photo-gallery">Photo Gallery</Link></li>
 
                 <li><Link className="dropdown-item" to="#">Video Gallery</Link></li>
 

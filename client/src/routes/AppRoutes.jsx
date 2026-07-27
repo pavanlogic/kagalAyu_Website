@@ -43,6 +43,20 @@ import NonTeachingStaff from "../pages/Faculty/NonTeachingStaff";
 // IQAC menu
 import IQACCommittee from "../pages/Academics/CommitteeCells/IQACCommittee";
 
+import PhotoGallery from "../pages/PhotoGallery";
+
+import SamhitaSiddhant from "../pages/departments/SamhitaSiddhant";
+import RachanaSharir from "../pages/departments/RachanaSharir";
+import KriyaSharir from "../pages/departments/KriyaSharir";
+import Agadtantra from "../pages/departments/Agadtantra";
+import Swasthavritta from "../pages/departments/Swasthavritta";
+import PrasutiTantra from "../pages/departments/PrasutiTantra";
+import Kaumarbhritya from "../pages/departments/Kaumarbhritya";
+import Kayachikitsa from "../pages/departments/Kayachikitsa";
+import ShalyaTantra from "../pages/departments/ShalyaTantra";
+import ShalakyaTantra from "../pages/departments/ShalakyaTantra";
+import Panchakarma from "../pages/departments/Panchakarma";
+
 function AppRoutes() {
     return (
             <Routes>
@@ -80,8 +94,30 @@ function AppRoutes() {
                 <Route path="/academics" element={<Academics />} />
                 <Route path="/hospital" element={<Hospital />} />
                 <Route path="/gallery" element={<Gallery />} />
+                <Route path="/photo-gallery" element={<PhotoGallery />} />
                               
                 <Route path="/contact" element={<Contact />} /> 
+
+                {/* Department */}
+                 <Route path="/departments/samhita-siddhant" element={<SamhitaSiddhant />}  />
+                 <Route path="/departments/rachana-sharir" element={<RachanaSharir/>}  />
+                 <Route path="/departments/kriya-sharir" element={<KriyaSharir/>}  />
+                 <Route path="/departments/agadtantra" element={<Agadtantra />}/>
+                 <Route path="/departments/swasthavritta" element={<Swasthavritta />}/>
+                 <Route path="/departments/prasuti-tantra" element={<PrasutiTantra />}/>
+                 <Route path="/departments/kaumarbhritya" element={<Kaumarbhritya />}/>
+                 <Route path="/departments/kayachikitsa"  element={<Kayachikitsa />}/>
+                 <Route path="/departments/shalya-tantra" element={<ShalyaTantra />}/>
+                 <Route path="/departments/shalakya-tantra" element={<ShalakyaTantra />}/>
+                 <Route path="/departments/panchakarma" element={<Panchakarma />}/>
+
+
+
+
+{/*                 <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/photo-gallery" element={<PhotoGallery />} />
+                </Routes> */}
 
                 {/* 404 */}
                 <Route

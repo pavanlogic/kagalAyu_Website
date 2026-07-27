@@ -1,4 +1,4 @@
-.page-banner{
+/* .page-banner{
     height:220px;
     background:url("/images/banner.jpg") center center/cover no-repeat;
     position:relative;
@@ -18,4 +18,41 @@
     color:#fff;
     font-size:42px;
     font-weight:700;
+} */
+
+.page-banner{
+    height:280px;
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#7f9f8d;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    position:relative;
+}
+
+.page-banner-overlay{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:rgba(0,0,0,.35);
+}
+
+.page-banner h1{
+    color:#fff;
+    font-size:42px;
+    font-weight:700;
+    text-align:center;
+    margin:0;
+    padding:0 20px;
+    text-transform:uppercase;
 }
