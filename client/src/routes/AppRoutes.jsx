@@ -45,17 +45,17 @@ import IQACCommittee from "../pages/Academics/CommitteeCells/IQACCommittee";
 
 import PhotoGallery from "../pages/PhotoGallery";
 
-import SamhitaSiddhant from "../pages/departments/SamhitaSiddhant";
-import RachanaSharir from "../pages/departments/RachanaSharir";
-import KriyaSharir from "../pages/departments/KriyaSharir";
-import Agadtantra from "../pages/departments/Agadtantra";
-import Swasthavritta from "../pages/departments/Swasthavritta";
-import PrasutiTantra from "../pages/departments/PrasutiTantra";
-import Kaumarbhritya from "../pages/departments/Kaumarbhritya";
-import Kayachikitsa from "../pages/departments/Kayachikitsa";
-import ShalyaTantra from "../pages/departments/ShalyaTantra";
-import ShalakyaTantra from "../pages/departments/ShalakyaTantra";
-import Panchakarma from "../pages/departments/Panchakarma";
+import SamhitaSiddhant from "../pages/Departments/SamhitaSiddhant";
+import RachanaSharir from "../pages/Departments/RachanaSharir";
+import KriyaSharir from "../pages/Departments/KriyaSharir";
+import Agadtantra from "../pages/Departments/Agadtantra";
+import Swasthavritta from "../pages/Departments/Swasthavritta";
+import PrasutiTantra from "../pages/Departments/PrasutiTantra";
+import Kaumarbhritya from "../pages/Departments/Kaumarbhritya";
+import Kayachikitsa from "../pages/Departments/Kayachikitsa";
+import ShalyaTantra from "../pages/Departments/ShalyaTantra";
+import ShalakyaTantra from "../pages/Departments/ShalakyaTantra";
+import Panchakarma from "../pages/Departments/Panchakarma";
 
 function AppRoutes() {
     return (
