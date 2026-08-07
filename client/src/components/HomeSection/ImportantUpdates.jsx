@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+/* import { useEffect, useRef } from "react";
 import "./HomeSection.css";
 
 function ImportantUpdates() {
@@ -83,4 +83,87 @@ function ImportantUpdates() {
     );
 }
 
-export default ImportantUpdates;
+export default ImportantUpdates; */
+
+import React from "react";
+import "./ImportantUpdates.css";
+
+const updates = [
+  {
+    title: "जाहिरात इंटरनेट लॅन आयुर्वेद महाविद्यालय व रुग्णालय",
+    file: "/pdf/intenetLan.pdf",
+  },
+  {
+    title: "कॉम्प्युटर जाहिरात आयुर्वेद रुग्णालय",
+    file: "/pdf/computer_advertising.pdf",
+  },
+  {
+    title: "दरपत्रक स्टेशनरी आयुर्वेद महाविद्यालय व रुग्णालय",
+    file: "/pdf/stetionary.pdf",
+  },
+  {
+    title: "जाहिरात औषध आयुर्वेद महाविद्यालय व रुग्णालय",
+    file: "/pdf/medicine.pdf",
+  },
+   {
+    title: "जाहिरात chemical reagents and consumables आयुर्वेद रुग्णालय",
+    file: "/pdf/ad_chemical_reagents_consumables.pdf",
+  },
+   {
+    title: "जाहिरात consumables items for surgical procedure and other relevant medicine आयुर्वेद रुग्णालय",
+    file: "/pdf/ad_consumables_items_for_surgical_procedure_and_other_relevant_medicine.pdf",
+  },
+  {
+    title: "जाहिरात departmental modelआयुर्वेद महाविद्यालय व रुग्णालय",
+    file: "/pdf/ad_departmental_model.pdf",
+  },
+   {
+    title: "जाहिरात फर्निचर आयुर्वेद महाविद्यालय व रुग्णालय",
+    file: "/pdf/ad_furniture.pdf",
+  },
+   {
+    title: "जाहिरात cctv आयुर्वेद महाविद्यालय व रुग्णालय",
+    file: "/pdf/ad_cctv.pdf",
+  },
+   {
+    title: "जाहिरात किरकोळ कामे आयुर्वेद महाविद्यालय व रुग्णालय",
+    file: "/pdf/ad_other_work.pdf",
+  },
+   {
+    title: "जाहिरात पडदे बसविणे आयुर्वेद महाविद्यालय व रुग्णालय",
+    file: "/pdf/ad_curtains.pdf",
+  },
+]
+
+export default function ImportantUpdates() {
+  return (
+    <div className="updates-box">
+      <div className="updates-header">
+        IMPORTANT UPDATES
+      </div>
+
+      <marquee
+        direction="up"
+        scrollamount="2"
+        onMouseOver={(e) => e.target.stop()}
+        onMouseOut={(e) => e.target.start()}
+      >
+        {updates.map((item, index) => (
+          <div key={index} className="update-item">
+            <span className="new-badge">NEW</span>
+
+            <a
+              href={item.file}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {item.title}
+            </a>
+          </div>
+        ))}
+      </marquee>
+
+      {/* <button className="view-btn">View All</button> */}
+    </div>
+  );
+}
