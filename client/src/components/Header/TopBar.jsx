@@ -12,12 +12,12 @@ function TopBar() {
 
                     <span>
                         <FaEnvelope />
-                        deangovtayucollegekagal@gmail.com
+                        gackolhapur@gmail.com
                     </span>
 
                     <span>
                         <FaPhoneAlt />
-                        02325 260105
+                        +91 82874 30199
                     </span>
 
                 </div>

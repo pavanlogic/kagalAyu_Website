@@ -149,7 +149,7 @@ function DeansMessage() {
 
     <div className="info-row">
       <span>Designation</span>
-      <p>Dean, Govt. Ayurvedic College, Kagal</p>
+      <p>Dean, Government Ayurvedic College, Kagal</p>
     </div>
 
     <div className="info-row">
@@ -258,7 +258,7 @@ function DeansMessage() {
 
     <div className="contact-details">
 
-        <h5>Government Ayurvedic College, Kagal</h5>
+        <h5>Government Ayurved College & Hospital</h5>
 
         <p>Pimpalgaon Khurd, Kagal, Kolhapur, Maharashtra – 416216</p>
 

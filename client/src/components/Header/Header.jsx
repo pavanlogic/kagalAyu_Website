@@ -25,15 +25,15 @@ function Header() {
           <div className="col-lg-7 ps-4">
 
             <h1 className="college-title">
-              GOVT. AYURVEDIC COLLEGE, KAGAL
+              GOVERNMENT AYURVED COLLEGE & HOSPITAL
             </h1>
 
             <h2 className="college-marathi">
-              शासकीय आयुर्वेद महाविद्यालय व रुग्णालय, कागल
+              शासकीय आयुर्वेद महाविद्यालय व रुग्णालय
             </h2>
 
             <p className="college-address">
-              Tal. Kagal, Dist. Kolhapur, Maharashtra - 416216
+              Mouje Sangaon, Tal. Kagal, Dist. Kolhapur, Maharashtra - 416216
             </p>
 
           </div>

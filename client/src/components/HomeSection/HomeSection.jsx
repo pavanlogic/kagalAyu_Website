@@ -41,14 +41,9 @@ function HomeSection() {
         </div>
 
         <ul className="updates-list">
-          <li>📢 Admission Notification 2026-27</li>
-          <li>📢 Academic Calendar Released</li>
-          <li>📢 Hospital OPD Timings Updated</li>
-          <li>📢 MUHS Examination Schedule</li>
-          <li>📢 National Ayurveda Seminar_1</li>
-          <li>📢 National Ayurveda Seminar_2</li>
-          <li>📢 National Ayurveda Seminar_3</li>
-          <li>📢 National Ayurveda Seminar_4</li>
+          <li>📢 Contact number For Admission NEET UG 2026-27</li>
+          <li>📢 Instructions to Student NEET UG 2026-27</li>
+          <li>📢 State Quota Admission Fees 2026-27</li>
         </ul>
 
         <button className="view-btn">View All</button>

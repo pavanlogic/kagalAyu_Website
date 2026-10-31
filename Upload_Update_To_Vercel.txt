@@ -1,0 +1,13 @@
+git add 
+git commit -m "Added Important Update PDFs" 
+git push origin main
+=====
+git add client/src/components/HomeSection/ImportantUpdates.jsx
+git add client/public/pdf
+git status
+git commit -m "Added Important Update PDFs"
+git push origin main
+
+
+https://vercel.com/hims1/
+then refresh vercel

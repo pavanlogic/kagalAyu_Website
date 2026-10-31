@@ -2,13 +2,14 @@ import TopBar from "../components/Header/TopBar";
 import Header from "../components/Header/Header";
 import Navbar from "../components/Header/Navbar";
 import Footer from "../components/Footer/Footer";
-
+import AdmissionPopup from "../components/AdmissionPopup/AdmissionPopup";
 
 function MainLayout({ children }) {
 
     return (
 
         <>
+            <AdmissionPopup />
 
             <TopBar />
 

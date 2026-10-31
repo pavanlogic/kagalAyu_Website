@@ -34,12 +34,12 @@ function Footer() {
 
             <p>
               <FaPhoneAlt className="me-2" />
-              02325-260105
+              +91 82874 30199
             </p>
 
             <p>
               <FaEnvelope className="me-2" />
-              deangovtayucollegekagal@gmail.com
+              gackolhapur@gmail.com
             </p>
 
           </div>
@@ -117,7 +117,12 @@ function Footer() {
                 <FaYoutube />
               </a>
 
-              <a href="#">
+              <a
+                href="https://www.instagram.com/gackagal?exln=MXZjMHduanFkNHd6ZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
                 <FaInstagram />
               </a>
 

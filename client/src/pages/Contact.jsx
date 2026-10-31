@@ -34,15 +34,17 @@ const Contact = () => {
                             </h3>
 
                             <p>
-                                <strong>Government Ayurvedic College & Hospital</strong>
+                                <strong>Government Ayurved College </strong>
                                 <br />
-                                Pimpalgaon Khurd,
+                                Kasaba Sangaon Road,
                                 <br />
-                                Tal. Kagal,
+                                Opp. Matkari Mangal Karyalaya, 
                                 <br />
-                                Dist. Kolhapur,
+                                Near Dr. Babasaheb Ambedkar Vasatigruh,                                Opp. Matkari Mangal Karyalaya, 
                                 <br />
-                                Maharashtra – 416216
+                                Tal. Kagal,Dist. Kolhapur (MS)– 416216
+                                <br />
+                                 
                             </p>
 
                         </div>
@@ -59,7 +61,7 @@ const Contact = () => {
                             </h3>
 
                             <p>
-                                deangovtayucollegekagal@gmail.com
+                                gackolhapur@gmail.com
                             </p>
 
                         </div>
@@ -76,9 +78,9 @@ const Contact = () => {
                             </h3>
 
                             <p>
-                                Office : 02325-261005
+                                Office : 
                                 <br />
-                                Mobile : +91-XXXXXXXXXX
+                                Mobile : +91-82874 30199
                             </p>
 
                         </div>

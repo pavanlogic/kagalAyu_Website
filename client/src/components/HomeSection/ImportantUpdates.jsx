@@ -90,60 +90,20 @@ import "./ImportantUpdates.css";
 
 const updates = [
   {
-    title: "anatomy tank आयुर्वेद जाहिरात",
-    file: "/pdf/anatomytankआयुर्वेदजाहिरात.pdf",
+    title: "Contact number For Admission NEET UG 2026-27",
+    file: "/pdf/contactnoforadmission.pdf",
   },
 
   {
-    title: "शासकीय आयुर्वेद महाविद्यालय कागलकरिता 100 विद्यार्थी क्षमतेची इमार",
-    file: "/pdf/शासकीयआयुर्वेदमहाविद्यालयकागलकरिता100विद्यार्थीक्षमतेचीइमार.pdf",
+    title: "Instructions to Student NEET UG 2026-27",
+    file: "/pdf/instructiontostudent.pdf",
   },
 
   {
-    title: "जाहिरात इंटरनेट लॅन आयुर्वेद महाविद्यालय व रुग्णालय",
-    file: "/pdf/intenetLan.pdf",
+    title: "State Quota Admission Fees and DD details NEET UG 2026-27",
+    file: "/pdf/feestructure2026_27.pdf",
   },
-  {
-    title: "कॉम्प्युटर जाहिरात आयुर्वेद रुग्णालय",
-    file: "/pdf/computer_advertising.pdf",
-  },
-  {
-    title: "दरपत्रक स्टेशनरी आयुर्वेद महाविद्यालय व रुग्णालय",
-    file: "/pdf/stetionary.pdf",
-  },
-  {
-    title: "जाहिरात औषध आयुर्वेद महाविद्यालय व रुग्णालय",
-    file: "/pdf/medicine.pdf",
-  },
-   {
-    title: "जाहिरात chemical reagents and consumables आयुर्वेद रुग्णालय",
-    file: "/pdf/ad_chemical_reagents_consumables.pdf",
-  },
-   {
-    title: "जाहिरात consumables items for surgical procedure and other relevant medicine आयुर्वेद रुग्णालय",
-    file: "/pdf/ad_consumables_items_for_surgical_procedure_and_other_relevant_medicine.pdf",
-  },
-  {
-    title: "जाहिरात departmental modelआयुर्वेद महाविद्यालय व रुग्णालय",
-    file: "/pdf/ad_departmental_model.pdf",
-  },
-   {
-    title: "जाहिरात फर्निचर आयुर्वेद महाविद्यालय व रुग्णालय",
-    file: "/pdf/ad_furniture.pdf",
-  },
-   {
-    title: "जाहिरात cctv आयुर्वेद महाविद्यालय व रुग्णालय",
-    file: "/pdf/ad_cctv.pdf",
-  },
-   {
-    title: "जाहिरात किरकोळ कामे आयुर्वेद महाविद्यालय व रुग्णालय",
-    file: "/pdf/ad_other_work.pdf",
-  },
-   {
-    title: "जाहिरात पडदे बसविणे आयुर्वेद महाविद्यालय व रुग्णालय",
-    file: "/pdf/ad_curtains.pdf",
-  },
-]
+ ]
 
 export default function ImportantUpdates() {
   return (
